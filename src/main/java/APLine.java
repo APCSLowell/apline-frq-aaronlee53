@@ -8,11 +8,11 @@ public class APLine
  }
 
   public double getSlope(){
-    return -1 * (numa/numb);
+    return -1 * (a/b);
   }
 
   public double isOnLine(int x, int y){
-    if (numa * x + numb * y + numc == 0){
+    if (a * x + b * y + c == 0){
       return true;
     }
     return false;
